@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conts {
+    background-color: hsl(0, 0%, 100%);
+    width: 80%;
+    padding: 40px;
+}
+
+div img {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-block: 3%;
+}
+
+h3 {
+    color: hsl(14, 45%, 36%);
+    margin-block: 3%;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+p,
+li {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    line-height: 1.5; 
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 900;
+}
+
+span {
+    color: hsl(24, 5%, 18%);
+    font-weight: 700;
+}
+
+.time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    margin-block: 15px;
+}
+
+.tim {
+    padding: 20px;
+}
+
+.time p {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.ing {
+    padding: 7px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.ing div {
+    padding: 15px;
+}
+
+.ins {
+    padding: 7px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.ins div {
+    padding: 15px;
+}
+
+.nut {
+    padding: 7px;
+}
+
+.nut div {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+#fat {
+    border: none;
+}
+
+.col {
+    color: hsl(14, 45%, 36%);
+}
+
+ul li,
+ol li{
+    padding: 10px;
+} 
+
+@media (max-width: 400px)  {
+    
+    body {
+        background-color: white;
+    }
+
+    .conts {
+    width: 90%;
+    padding: 40px;
+}
+
+div img {
+    border: none;
+    border-radius: 0px;
+}
+
+}
